@@ -15,3 +15,5 @@ spec:
     modelregistry:
       managementState: Managed
       registriesNamespace: rhoai-model-registries
+    workbenches:
+      managementState: Managed

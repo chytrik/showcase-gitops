@@ -25,13 +25,13 @@ spec:
         cpuRequest: 30m
         env:
           - name: CHE_DASHBOARD_URL
-            value: https://devspaces.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com
+            value: https://devspaces.apps.ocp.5c5rv.sandbox634.opentlc.com
           - name: CHE_PLUGIN_REGISTRY_URL
-            value: https://devspaces.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com/plugin-registry/v3
+            value: https://devspaces.apps.ocp.5c5rv.sandbox634.opentlc.com/plugin-registry/v3
           - name: CHE_PLUGIN_REGISTRY_INTERNAL_URL
             value: http://plugin-registry.devspaces.svc:8080/v3
           - name: CLUSTER_CONSOLE_URL
-            value: https://console-openshift-console.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com
+            value: https://console-openshift-console.apps.ocp.5c5rv.sandbox634.opentlc.com
           - name: CLUSTER_CONSOLE_TITLE
             value: OpenShift console
           - name: OPENVSX_REGISTRY_URL
@@ -85,13 +85,13 @@ spec:
             targetPort: 13133
         env:
           - name: CHE_DASHBOARD_URL
-            value: https://devspaces.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com
+            value: https://devspaces.apps.ocp.5c5rv.sandbox634.opentlc.com
           - name: CHE_PLUGIN_REGISTRY_URL
-            value: https://devspaces.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com/plugin-registry/v3
+            value: https://devspaces.apps.ocp.5c5rv.sandbox634.opentlc.com/plugin-registry/v3
           - name: CHE_PLUGIN_REGISTRY_INTERNAL_URL
             value: http://plugin-registry.devspaces.svc:8080/v3
           - name: CLUSTER_CONSOLE_URL
-            value: https://console-openshift-console.apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com
+            value: https://console-openshift-console.apps.ocp.5c5rv.sandbox634.opentlc.com
           - name: CLUSTER_CONSOLE_TITLE
             value: OpenShift console
           - name: OPENVSX_REGISTRY_URL

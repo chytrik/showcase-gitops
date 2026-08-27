@@ -82,4 +82,4 @@ users:
   - name: admin
     seed: false
 
-baseDomain: apps.cluster-qqwq7.qqwq7.sandbox2959.opentlc.com
+baseDomain: apps.ocp.5c5rv.sandbox634.opentlc.com
