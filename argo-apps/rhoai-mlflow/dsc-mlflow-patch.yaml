@@ -1,4 +1,4 @@
-apiVersion: datasciencecluster.opendatahub.io/v2
+apiVersion: datasciencecluster.opendatahub.io/v1
 kind: DataScienceCluster
 metadata:
   annotations:
