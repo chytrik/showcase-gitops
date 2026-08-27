@@ -10,7 +10,7 @@ spec:
   project: showcase-gitops
   source:
     path: argo-apps/tooling-app-of-apps
-    repoURL: https://github.com/agiertli/showcase-gitops.git
+    repoURL: https://github.com/chytrik/showcase-gitops.git
     targetRevision: HEAD
   syncPolicy:
     automated:

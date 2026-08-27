@@ -2,7 +2,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/agiertli/showcase-gitops.git
+    repoURL: https://github.com/chytrik/showcase-gitops.git
     targetRevision: HEAD
 argo:
   namespace: openshift-gitops
