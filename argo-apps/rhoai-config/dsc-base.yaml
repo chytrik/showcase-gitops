@@ -12,6 +12,10 @@ spec:
     kserve:
       managementState: Managed
       rawDeploymentServiceConfig: Headless
+      modelsAsService:
+        managementState: Managed
+    llamastackoperator:
+      managementState: Managed
     modelregistry:
       managementState: Managed
       registriesNamespace: rhoai-model-registries

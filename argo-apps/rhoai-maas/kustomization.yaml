@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
 - cluster-config.yaml
-- dsc-maas-patch.yaml
 - kuadrant-namespace.yaml
 - kuadrant.yaml
 - maas-api-resource-override.yaml
